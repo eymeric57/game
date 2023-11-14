@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(27, 26, 26);
+    width: 100%;
+    height: 100%;
+    
+h1 {
+
+    text-align: center;
+    padding: 40px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+#rules {
+   right: 20px;
+   top: 20px;
+   padding: 10px 20px;
+    position: absolute;
+    border-radius: 10px;
+}
+
+ .image {
+    position: relative;
+
+    #true {
+        color: green;
+        background: rgba(255, 255, 255, 0.603);
+        font-size: 5rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position: absolute;
+margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+text-align: center;
+top: 200px;
+width: 250px;
+opacity: 0;
+transition: 1s;
+border-radius: 20px;
+border: green solid 11px;
+transform: rotate(330deg);
+    
+        
+ }
+
+ #false {
+    color: red;
+    background: rgba(255, 255, 255, 0.603);
+    font-size: 5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+text-align: center;
+top: 200px;
+width: 250px;
+opacity: 0;
+transition: 1s;
+border-radius: 20px;
+border: red solid 11px;
+transform: rotate(330deg);
+
+    
+}
+
+
+    
+  .img1 {
+       background-image: url(./img/chat1.jpg);
+      width: 500px;
+       height: 500px;
+       margin: 0 auto;
+     
+     
+       
+    }
+    .img2 {
+        background-image: url(./img/chien.jpg);
+        width: 500px;
+         height: 500px;
+         margin: 0 auto;
+         display: none;
+        
+         
+
+    }
+    .img3 {
+        background-image: url(./img/elephant.jpg);
+        width: 500px;
+         height: 500px;
+         margin: 0 auto;
+         
+         display: none;
+         
+         
+    }
+
+    .img4 {
+        background-image: url(./img/poisson.jpg);
+        width: 500px;
+         height: 500px;
+         margin: 0 auto;
+        
+         display: none;
+         
+         
+    }
+    
+
+}
+
+
+
+.answer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 50%;
+   margin: 30px auto;
+   gap: 20px;
+  
+
+    button {
+        padding: 10px;
+        cursor: pointer;
+        font-size: 1.5rem;
+        
+     
+    }
+   
+ }
+
+#next {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+   
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    width: 100px;
+    opacity: 0;
+    text-align: center;
+    cursor: pointer;
+}
+
+#retry {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    width: 100px;
+    opacity:0 ;
+    text-align: center;
+    cursor: pointer;
+}
+}
